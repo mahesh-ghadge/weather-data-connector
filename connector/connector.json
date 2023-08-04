@@ -1,0 +1,28 @@
+{
+  "name": "weather-data",
+  "version": "1.0.0",
+  "tableau-version": {
+    "min": "2023.2"
+  },
+  "vendor": {
+    "name": "Suresh",
+    "support-link": "https://www.datachampionshive.com",
+    "email": "connect@datachampionshive.com"
+  },
+  "permission": {
+    "api": {
+      "https://*.openweathermap.org/": [
+        "GET",
+        "POST",
+        "HEAD"
+      ]
+    }
+  },
+  "auth": {
+    "type": "api-key"
+  },
+  "window": {
+    "height": 800,
+    "width": 600
+  }
+}
