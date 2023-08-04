@@ -16,7 +16,7 @@ function submit() {
       fetcher: 'MyFetcher',
       parser: 'MyParser',
       data: {
-        url: 'https://api.openweathermap.org/data/2.5/forecast?lat=' + latitude + '&lon=' + longitude + '&appid=f25682be52f39e06d99d32aa9b4d0ef3',
+        url: 'https://api.openweathermap.org/data/2.5/forecast?lat=' + latitude + '&lon=' + longitude + '&appid=<your API Token>',
       },
     },
   ]
